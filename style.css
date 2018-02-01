@@ -25,5 +25,96 @@ nav li a:hover {
 }
 
 /*General page*/
+/*General pages*/
+p{
+font-family:'Josefin Sans', sans-serif;
+}
+body{
+    background:#f2e2c1;
+}
+#footer{
+    position:absolute;
+    bottom:0;
+    height:20px;
+    /*margin-left:40%;*/
+}
+
+/*Front page*/
+.main-content{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid #ccc;
+    border-radius:16px;
+    height:100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.inner-content{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+h1{
+    text-align:center;
+    font-family:'Lobster',cursive;
+}
+.front-image{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+.front-img{
+    width:100%;
+}
+
+/*Portfolio page*/
+
+.image-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+    background-color:#f2e2c1;
+    margin-top:100px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.image-wrapper img{
+    display:block;
+    width:100%;
+    height:auto;   
+
+}
+
+/*About page*/
+.content{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+    
+}
+.profile-image{
+    margin-top:100px;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+.profile-image img{
+    width:100%;
+}
+
+.content p{
+    text-align:center;
+    width:100%;
+}
+
+/*Reviews*/
 
 
