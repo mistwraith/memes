@@ -1,4 +1,4 @@
-/*Navigation bar:*/
+/*------Navigation bar:------*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -27,7 +27,7 @@ nav li a:hover {
 
 
 
-/*General pages*/
+/*------General pages-----*/
 body{
     background:#3e4470;
 }
@@ -37,8 +37,16 @@ body{
     height:20px;
     /*margin-left:40%;*/
 }
+h1{
+    text-align:center;
+    font-family: 'Rammetto One', cursive;
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size:120%;
+}
 
-/*Front page*/
+/*------Front page------*/
 .main-content{
     width:80%;
     margin-left:auto;
@@ -66,9 +74,20 @@ h1{
     margin-left:auto;
     margin-right:auto;
     position:center;
+    padding-top:20px;
+}
+.intro{
+    background:#e2ecff;
+    border-radius:25px;
+}
+.intro p{
+    text-align:center;
+}
+.inner-intro{
+    padding:20px;
 }
 
-/*Memes Page*/
+/*-----Memes Page-----*/
 * {
     box-sizing: border-box;
 }
@@ -100,7 +119,8 @@ body {
 }
 
 .column img {
-    margin-top: 8px;
+    margin-top: 12px;
+    padding:4px;
     vertical-align: middle;
 }
 
@@ -122,30 +142,54 @@ body {
     }
 }
 
-/*About page*/
+/*------Jokes page-----*/
 .content{
     width:80%;
     margin-left:auto;
     margin-right:auto;
     margin-top:100px;
+}
+
+div.partB{
+    display: none;
+}
+    
+div.partA:hover + div {
+    display: block;
+}
+.partA:hover{
+    background:#f78c8c;
+    border-radius:16px;
+}
+
+.partA p{
+    text-align:center;
+    background:#d6a0a0;
+    border-radius:16px;
+    font-size:170%;
+}
+.partB p{
+    text-align:center;
+    background:#a0d6af;
+    border-radius:16px;
+    font-size:170%;
+}
+p{
+    padding:3px;
+}
+
+/*------Contact------*/
+
+.contact{
+    margin-top:30%;
+    background:#e2ecff;
+    border-radius:25px;
     
 }
-.profile-image{
-    margin-top:100px;
-    width:30%;
-    margin-left:auto;
-    margin-right:auto;
-    position:relative;
-}
-.profile-image img{
-    width:100%;
-}
-
-.content p{
+.contact h3{
     text-align:center;
-    width:100%;
 }
-
-/*Reviews*/
-
+.inner-contact{
+    padding:20px;
+}
 
